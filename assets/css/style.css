@@ -20,6 +20,7 @@
     background-color: #7BA238;
     gap: 20px;
     height: 450px;
+    border-radius: 3%;
 }
 
 .foto {
@@ -31,7 +32,9 @@
     color: #fff;
 }
 
-.inputs {}
+.inputs {
+    color: black;
+}
 
 .precio-producto {
     font-size: 16px;
@@ -68,7 +71,9 @@
     top: 2px;
 }
 
-.textcolor {}
+.textcolor {
+    color: black;
+}
 
 .box {
     width: 15px;
