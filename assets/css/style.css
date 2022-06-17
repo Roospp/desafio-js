@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 200px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7BA238;
+    gap: 20px;
+    height: 450px;
+}
+
+.foto {
+    width: 250px;
+    height: 150px;
+}
+
+.tittle {
+    color: #fff;
+}
+
+.inputs {}
+
+.precio-producto {
+    font-size: 16px;
+    color: #fff;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-producto {
+    min-width: 130px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    background: #ffd819;
+}
+
+.btn-producto:hover {
+    background-color: #ffe566;
+}
+
+.btn-producto:active {
+    top: 2px;
+}
+
+.textcolor {}
+
+.box {
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+}

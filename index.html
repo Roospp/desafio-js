@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <title>Js</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="card" action="">
+            <img class="foto" src="assets/img/laptop.jpeg" alt="laptop">
+            <h3 class="tittle">Laptop Gamer AMD</h3>
+
+            <input class="inputs" id="cantidad" type="number" placeholder="cantidad" required>
+            <input class="inputs" id="color" type="text" placeholder="color" required>
+
+            <p class="precio-producto">Precio: $400.000
+            </p>
+            <button class="btn-producto" id="btn1" onclick="calcular()">Calcular Total</button>
+        </form>
+
+        <div class="description">
+            <p class="total" id="total"> Total: $0</p>
+            <p class="totalcantidad" id="cantidadTotal">Cantidad: 0</p>
+            <P class="textcolor">Color:
+                <div class="box" id="color"> </div>
+            </P>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
